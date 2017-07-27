@@ -1,0 +1,13 @@
+<table>
+  <tr>
+    <th>ID</th>
+    <th>Name</th>
+  </tr>
+  {{ $gistJ := getJSON "//data/accounts.json" }}
+  {{ range first 5 $gistJ }}
+  <tr>
+    <td>{{ .id }}</td>
+    <td>{{ .name }}</td>
+  </tr>
+  {{ end }}
+</table>

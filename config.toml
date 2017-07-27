@@ -1,4 +1,42 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "StackBack"
-theme = "ananke"
+theme = "hugo-material-docs"
+metadataformat = "yaml"
+#canonifyurls = true
+# Enable Google Analytics by entering your tracking id
+googleAnalytics = ""
+
+[params]
+	version = "1.0.0"
+	logo = "images/logo.png"
+	favicon = ""
+
+	permalink = "#"
+
+	# Syntax highlighting theme
+	highlight_css  = ""
+
+[params.palette]
+  primary = "red"
+  accent  = "teal"
+
+  [params.font]
+    text = "Ubuntu"
+    code = "Ubuntu Mono"
+
+[[menu.main]]
+	name   = "Index"
+	url    = "/"
+	weight = 1
+
+[[menu.main]]
+	name   = "Accounts"
+	url    = "accounts/"
+	weight = 10
+
+[blackfriday]
+	smartypants	= true
+	fractions = true
+	smartDashes = true
+	plainIDAnchors = true
