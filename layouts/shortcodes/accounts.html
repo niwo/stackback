@@ -2,12 +2,18 @@
   <tr>
     <th>ID</th>
     <th>Name</th>
+    <th>State</th>
+    <th>Domain</th>
+    <th>Removed</th>
   </tr>
-  {{ $gistJ := getJSON "//data/accounts.json" }}
-  {{ range first 5 $gistJ }}
+  {{ $accounts := getJSON "//data/accounts.json" }}
+  {{ range $accounts }}
   <tr>
     <td>{{ .id }}</td>
     <td>{{ .name }}</td>
+    <td>{{ .state }}</td>
+    <td>{{ .domain }}</td>
+    <td>{{ .removed }}</td>
   </tr>
   {{ end }}
 </table>
