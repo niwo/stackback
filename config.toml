@@ -26,14 +26,14 @@ googleAnalytics = ""
     code = "Ubuntu Mono"
 
 [[menu.main]]
-	name   = "Index"
+	name   = "Home"
 	url    = "/"
-	weight = 1
+	weight = 10
 
 [[menu.main]]
 	name   = "Accounts"
 	url    = "accounts/"
-	weight = 10
+	weight = 20
 
 [blackfriday]
 	smartypants	= true

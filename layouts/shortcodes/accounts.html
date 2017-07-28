@@ -1,19 +1,36 @@
+<h2>Active Accounts</h2>
 <table>
   <tr>
     <th>ID</th>
     <th>Name</th>
     <th>State</th>
     <th>Domain</th>
-    <th>Removed</th>
   </tr>
   {{ $accounts := getJSON "//data/accounts.json" }}
-  {{ range $accounts }}
+  {{ range where $accounts "removed" nil }}
   <tr>
-    <td>{{ .id }}</td>
+    <td><b>{{ .id }}</b></td>
     <td>{{ .name }}</td>
     <td>{{ .state }}</td>
     <td>{{ .domain }}</td>
-    <td>{{ .removed }}</td>
+  </tr>
+  {{ end }}
+</table>
+
+<h2>Removed Accounts</h2>
+<table>
+  <tr>
+    <th>ID</th>
+    <th>Name</th>
+    <th>Domain</th>
+    <th>Removed</th>
+  </tr>
+  {{ range where $accounts "removed" "!=" nil }}
+  <tr>
+    <td><b>{{ .id }}</b></td>
+    <td>{{ .name }}</td>
+    <td>{{ .domain }}</td>
+    <td>{{ dateFormat "02.01.2006" .removed }}</td>
   </tr>
   {{ end }}
 </table>
