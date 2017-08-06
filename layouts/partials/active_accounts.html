@@ -1,0 +1,16 @@
+<table class="striped">
+  <tr>
+    <th>ID</th>
+    <th>Name</th>
+    <th>State</th>
+    <th>Domain</th>
+  </tr>
+  {{ range sort . "id" }}
+  <tr>
+    <td><b>{{ .id }}</b></td>
+    <td>{{ .name }}</td>
+    <td>{{ .state }}</td>
+    <td>{{ .domain }}</td>
+  </tr>
+  {{ end }}
+</table>

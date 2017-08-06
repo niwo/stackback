@@ -1,0 +1,18 @@
+<table class="striped">
+  <tr>
+    <th>ID</th>
+    <th>Name</th>
+    <th>State</th>
+    <th>Domain</th>
+    <th>Removed</th>
+  </tr>
+  {{ range sort . "removed" "desc" }}
+  <tr>
+    <td><b>{{ .id }}</b></td>
+    <td>{{ .name }}</td>
+    <td>{{ .state }}</td>
+    <td>{{ .domain }}</td>
+    <td>{{ dateFormat "02.01.2006" .removed }}</td>
+  </tr>
+  {{ end }}
+</table>
