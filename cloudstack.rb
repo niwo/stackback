@@ -1,77 +1,87 @@
 #!/usr/bin/env ruby
 
 begin
-  require 'highline/import'
+  require 'thor'
   require 'mysql2'
-  require 'dotenv/load'
-  require 'optparse'
+  require 'dotenv'
   require 'json'
 rescue LoadError => e
-  gem = e.message.scan(/.*-- (\S+)/).first.last
+  gem = e.message.scan(/.*-- (\w+).*/).first.first
   puts "ERROR: Missing dependency #{gem} -- Install with 'gem install #{gem}'"
   exit 1
 end
 
-# trap ctrl-c
-trap "SIGINT" do
-  puts " Exiting..."
-  exit 130
+class Stackback < Thor
+  include Thor::Actions
+
+  package_name "stackback"
+
+  Dotenv.load
+
+  class_option :cs_db_host,
+    default: ENV['CS_DB_HOST'],
+    aliases: '-h',
+    desc: 'CloudStack database host'
+
+  class_option :cs_db_user,
+    default: ENV['CS_DB_USER'],
+    aliases: '-u',
+    desc: 'CloudStack database user'
+
+  class_option :cs_db_password,
+    default: ENV['CS_DB_PASSWORD'],
+    aliases: '-p',
+    desc: 'CloudStack database password'
+
+  class_option :cs_db_name,
+    default: ENV['CS_DB_NAME'] || 'cloud',
+    aliases: '-n',
+    desc: 'CloudStack database name'
+
+  # catch control-c and exit
+  trap("SIGINT") do
+    puts
+    puts "exiting.."
+    exit!
+  end
+
+  # exit with return code 1 in case of a error
+  def self.exit_on_failure?
+    true
+  end
+
+  desc "accounts", "Generate JSON data from accounts"
+  def accounts
+    accounts = client.query("SELECT id, account_name, type, state, removed, domain_id FROM account ORDER BY state, account_name;").map do |row|
+      domain = client.query("SELECT id, name, path FROM domain WHERE id = #{row['domain_id']};").first['name'] rescue row['n/a']
+      # name = if row['type'] == 5
+      #   client.query("SELECT p.name FROM projects AS p
+      #   INNER JOIN project_account AS j ON p.id = j.project_id AND j.account_id = #{row['id']};").first['name']
+      # else
+      #   row['account_name']
+      # end
+      {
+        id: row['id'],
+        name: row['account_name'], #name,
+        state: row['state'],
+        type: row['type'],
+        domain: domain,
+        removed: row['removed']
+      }
+    end
+    puts JSON.pretty_generate(accounts)
+  end
+
+  no_commands do
+    def client
+      @@client ||= client = Mysql2::Client.new(
+        host: options[:cs_db_host],
+        username: options[:cs_db_user],
+        password: options[:cs_db_password],
+        database: options[:cs_db_name]
+      )
+    end
+  end
 end
 
-# default options
-options = {}
-
-optparse = OptionParser.new do |opts|
-  opts.banner = "Usage: cloudstack.rb [options]"
-
-  options[:cs_db_host] = ENV['CS_DB_HOST']
-  opts.on( '-h', '--db-host HOST', 'CloudStack database host' ) do |h|
-    options[:cs_db_host] = h
-  end
-
-  options[:cs_db_user] = ENV['CS_DB_USER']
-  opts.on( '-u', '--db-user USER', 'CloudStack database user' ) do |u|
-    options[:cs_db_user] = u
-  end
-
-  options[:cs_db_password] = ENV['CS_DB_PASSWORD']
-  opts.on( '-p', '--db-password password PASSWORD', 'CloudStack database password' ) do |p|
-    options[:cs_db_password] = p
-  end
-
-  options[:cs_db_name] = ENV['CS_DB_NAME'] || "cloud"
-  opts.on( '-n', '--db-name db_name NAME', 'CloudStack database name' ) do |n|
-    options[:cs_db_name] = n
-  end
-
-  options[:destination] = "../data"
-  opts.on( '-d', '--destination DEST', 'Destination of file output' ) do |d|
-    options[:destination] = d
-  end
-
-  opts.on_tail('--help', 'Show this screen') do
-    puts opts
-    exit
-  end
-end
-
-optparse.parse!
-
-client = Mysql2::Client.new(
-  host: options[:cs_db_host],
-  username: options[:cs_db_user],
-  password: options[:cs_db_password],
-  database: options[:cs_db_name]
-)
-
-accounts = client.query("SELECT id, account_name, state, removed, domain_id FROM account ORDER BY state, account_name;").map do |row|
-  domain = client.query("SELECT id, name, path FROM domain WHERE id = #{row['domain_id']};").first['name'] rescue row['n/a']
-  {
-    id: row['id'],
-    name: row['account_name'],
-    state: row['state'],
-    domain: domain,
-    removed: row['removed']
-  }
-end
-puts accounts.to_json
+Stackback.start
