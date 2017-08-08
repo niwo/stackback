@@ -1,0 +1,212 @@
+[
+  {
+    "id": 11,
+    "name": "RTS_PROD",
+    "domain": "RTS",
+    "description": "RTS Production",
+    "created": "2012-08-30 12:21:58 +0200"
+  },
+  {
+    "id": 13,
+    "name": "RTS_TEST",
+    "domain": "RTS",
+    "description": "RTS Test",
+    "created": "2012-08-30 12:23:34 +0200"
+  },
+  {
+    "id": 14,
+    "name": "RSI_PROD",
+    "domain": "RSI",
+    "description": "RSI Production",
+    "created": "2012-08-30 12:24:50 +0200"
+  },
+  {
+    "id": 15,
+    "name": "RSI_TEST",
+    "domain": "RSI",
+    "description": "RSI Test",
+    "created": "2012-08-30 12:25:22 +0200"
+  },
+  {
+    "id": 16,
+    "name": "RSI_STAGING",
+    "domain": "RSI",
+    "description": "RSI Staging",
+    "created": "2012-08-30 12:26:05 +0200"
+  },
+  {
+    "id": 17,
+    "name": "Playground",
+    "domain": "ROOT",
+    "description": "STXT Playground",
+    "created": "2012-08-30 13:37:04 +0200"
+  },
+  {
+    "id": 20,
+    "name": "RTS_DEV",
+    "domain": "RTS",
+    "description": "RTS Development",
+    "created": "2012-12-17 14:47:24 +0100"
+  },
+  {
+    "id": 25,
+    "name": "SRF_STAGE",
+    "domain": "SRF",
+    "description": "SRF Stage",
+    "created": "2013-07-17 08:16:39 +0200"
+  },
+  {
+    "id": 30,
+    "name": "SRF_TEST",
+    "domain": "SRF",
+    "description": "SRF Test",
+    "created": "2013-07-18 07:40:01 +0200"
+  },
+  {
+    "id": 31,
+    "name": "SRF_PRODUCTION",
+    "domain": "SRF",
+    "description": "SRF Production",
+    "created": "2013-07-18 07:45:29 +0200"
+  },
+  {
+    "id": 32,
+    "name": "SRF_TRAINING",
+    "domain": "SRF",
+    "description": "SRF Training",
+    "created": "2013-07-18 09:03:17 +0200"
+  },
+  {
+    "id": 34,
+    "name": "STXT_INTEGRATION",
+    "domain": "STXT",
+    "description": "STXT Integration",
+    "created": "2013-08-19 12:29:10 +0200"
+  },
+  {
+    "id": 37,
+    "name": "RTS_LABO",
+    "domain": "RTS",
+    "description": "RTS Labo",
+    "created": "2014-10-07 13:59:58 +0200"
+  },
+  {
+    "id": 40,
+    "name": "XTDX_Integration",
+    "domain": "xtendx",
+    "description": "XTDX Integration",
+    "created": "2014-11-21 16:15:47 +0100"
+  },
+  {
+    "id": 41,
+    "name": "RTR_PROD",
+    "domain": "RTR",
+    "description": "RTR Production",
+    "created": "2015-01-09 08:53:54 +0100"
+  },
+  {
+    "id": 43,
+    "name": "GD_PROD",
+    "domain": "GD",
+    "description": "GD Production",
+    "created": "2015-01-28 07:22:24 +0100"
+  },
+  {
+    "id": 49,
+    "name": "SWI_PROD",
+    "domain": "swissinfo",
+    "description": "Swissinfo Production",
+    "created": "2015-04-21 13:46:57 +0200"
+  },
+  {
+    "id": 53,
+    "name": "STXT_Management",
+    "domain": "STXT",
+    "description": "STXT Management",
+    "created": "2015-08-19 14:02:11 +0200"
+  },
+  {
+    "id": 56,
+    "name": "STXT_MIO_PROD",
+    "domain": "STXT",
+    "description": "STXT MIO Production",
+    "created": "2015-10-15 10:06:30 +0200"
+  },
+  {
+    "id": 58,
+    "name": "STXT_HBBTV_STREAMING",
+    "domain": "STXT",
+    "description": "STXT HBBTV Streaming",
+    "created": "2016-01-19 10:26:45 +0100"
+  },
+  {
+    "id": 63,
+    "name": "SWI_ACP",
+    "domain": "swissinfo",
+    "description": "Swissinfo Acceptance",
+    "created": "2016-03-14 14:02:07 +0100"
+  },
+  {
+    "id": 65,
+    "name": "STXT_SBBMEDIA",
+    "domain": "STXT",
+    "description": "STXT Video@SBB Project",
+    "created": "2016-04-21 06:19:01 +0200"
+  },
+  {
+    "id": 66,
+    "name": "STXT_Kaltura_PROD",
+    "domain": "STXT",
+    "description": "STXT Kaltura Production",
+    "created": "2016-06-07 16:02:35 +0200"
+  },
+  {
+    "id": 67,
+    "name": "STXT_Kaltura_STAGE",
+    "domain": "STXT",
+    "description": "STXT Kaltura Stage",
+    "created": "2016-09-19 14:53:17 +0200"
+  },
+  {
+    "id": 70,
+    "name": "STXT_CARGO_PROD",
+    "domain": "STXT",
+    "description": "STXT Cargo (K8s) Prod",
+    "created": "2016-10-06 07:37:00 +0200"
+  },
+  {
+    "id": 73,
+    "name": "CLAVISIT_CLOUD_REPOSITORY_TEST",
+    "domain": "clavisit",
+    "description": "Clavis IT Cloud TEST",
+    "created": "2017-01-06 10:24:14 +0100"
+  },
+  {
+    "id": 74,
+    "name": "CLAVISIT_CLOUD_REPOSITORY_PROD",
+    "domain": "clavisit",
+    "description": "Clavis IT Cloud PROD",
+    "created": "2017-01-06 10:24:33 +0100"
+  },
+  {
+    "id": 76,
+    "name": "CLAVISIT_VARIOUS_CUSTOMER_VPCs",
+    "domain": "clavisit",
+    "description": "Clavis IT / Diverse Kunden - VPC",
+    "created": "2017-02-03 13:17:31 +0100"
+  },
+  {
+    "id": 77,
+    "name": "CLAVISIT_INT_SVC",
+    "domain": "clavisit",
+    "description": "Clavis IT / Internal Services",
+    "created": "2017-02-26 12:16:31 +0100"
+  },
+  {
+    "id": 78,
+    "name": "Clavis IT / WebSolutions",
+    "domain": "clavisit",
+    "description": "Clavis IT / WebSolutions VMs ",
+    "created": "2017-03-03 10:57:55 +0100"
+  }
+]

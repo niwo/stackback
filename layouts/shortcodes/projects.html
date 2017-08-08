@@ -1,0 +1,19 @@
+{{ $projects := getJSON "//data/projects.json" }}
+<table class="striped">
+  <tr>
+    <th>ID</th>
+    <th>Name</th>
+    <th>Description</th>
+    <th>Domain</th>
+    <th>Created</th>
+  </tr>
+  {{ range sort $projects "created" "desc" }}
+  <tr>
+    <td><b>{{ .id }}</b></td>
+    <td>{{ .name }}</td>
+    <td>{{ .description }}</td>
+    <td>{{ .domain }}</td>
+    <td>{{ dateFormat "02.01.2006" .created }}</td>
+  </tr>
+  {{ end }}
+</table>

@@ -5,7 +5,7 @@
     <th>State</th>
     <th>Domain</th>
   </tr>
-  {{ range sort . "id" }}
+  {{ range sort . "id" "desc" }}
   <tr>
     <td><b>{{ .id }}</b></td>
     <td>{{ .name }}</td>

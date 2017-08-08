@@ -1,0 +1,1602 @@
+[
+  {
+    "id": 109,
+    "name": "adm-ziyoutha",
+    "state": "disabled",
+    "type": 2,
+    "domain": "swissinfo",
+    "removed": "2015-04-21 11:44:03 +0200"
+  },
+  {
+    "id": 88,
+    "name": "meier-media",
+    "state": "disabled",
+    "type": 0,
+    "domain": "meier-media",
+    "removed": "2016-05-18 14:41:17 +0200"
+  },
+  {
+    "id": 115,
+    "name": "PrjAcct-production-25",
+    "state": "disabled",
+    "type": 5,
+    "domain": "swissinfo",
+    "removed": "2015-04-21 11:33:56 +0200"
+  },
+  {
+    "id": 62,
+    "name": "PrjAcct-SRF_ACCEPTANCE-3",
+    "state": "disabled",
+    "type": 5,
+    "domain": "SRF",
+    "removed": "2015-05-08 13:44:45 +0200"
+  },
+  {
+    "id": 134,
+    "name": "PrjAcct-swi_acp-25",
+    "state": "disabled",
+    "type": 5,
+    "domain": "swissinfo",
+    "removed": "2016-03-14 14:00:45 +0100"
+  },
+  {
+    "id": 133,
+    "name": "PrjAcct-SWI_ACP-25",
+    "state": "disabled",
+    "type": 5,
+    "domain": "swissinfo",
+    "removed": "2016-03-14 10:14:42 +0100"
+  },
+  {
+    "id": 486,
+    "name": "PrjAcct-SWI_TEST-25",
+    "state": "disabled",
+    "type": 5,
+    "domain": "swissinfo",
+    "removed": "2017-05-17 07:33:03 +0200"
+  },
+  {
+    "id": 73,
+    "name": "voicepublishing",
+    "state": "disabled",
+    "type": 0,
+    "domain": "VoicePublishing",
+    "removed": "2016-07-08 14:57:29 +0200"
+  },
+  {
+    "id": 342,
+    "name": "aaubert",
+    "state": "enabled",
+    "type": 0,
+    "domain": "usersrf",
+    "removed": "2016-06-27 08:23:15 +0200"
+  },
+  {
+    "id": 142,
+    "name": "aaubert",
+    "state": "enabled",
+    "type": 0,
+    "domain": "usersrf",
+    "removed": "2016-06-27 08:16:07 +0200"
+  },
+  {
+    "id": 375,
+    "name": "aaubert",
+    "state": "enabled",
+    "type": 0,
+    "domain": "usersrf",
+    "removed": "2016-07-05 13:20:04 +0200"
+  },
+  {
+    "id": 113,
+    "name": "adm-scheidpa",
+    "state": "enabled",
+    "type": 2,
+    "domain": "swissinfo",
+    "removed": "2015-04-21 11:44:59 +0200"
+  },
+  {
+    "id": 101,
+    "name": "adm-stxt",
+    "state": "enabled",
+    "type": 2,
+    "domain": "GD",
+    "removed": null
+  },
+  {
+    "id": 114,
+    "name": "adm-tognazju",
+    "state": "enabled",
+    "type": 2,
+    "domain": "swissinfo",
+    "removed": "2015-04-16 08:11:48 +0200"
+  },
+  {
+    "id": 2,
+    "name": "admin",
+    "state": "enabled",
+    "type": 1,
+    "domain": "ROOT",
+    "removed": null
+  },
+  {
+    "id": 149,
+    "name": "alooser",
+    "state": "enabled",
+    "type": 0,
+    "domain": "userscustomers",
+    "removed": "2016-06-27 08:16:08 +0200"
+  },
+  {
+    "id": 349,
+    "name": "alooser",
+    "state": "enabled",
+    "type": 0,
+    "domain": "userscustomers",
+    "removed": "2016-07-05 13:19:36 +0200"
+  },
+  {
+    "id": 110,
+    "name": "bachstiftung",
+    "state": "enabled",
+    "type": 2,
+    "domain": "bachstiftung",
+    "removed": null
+  },
+  {
+    "id": 181,
+    "name": "banyer",
+    "state": "enabled",
+    "type": 0,
+    "domain": "userrts",
+    "removed": "2016-06-27 08:16:08 +0200"
+  },
+  {
+    "id": 364,
+    "name": "banyer",
+    "state": "enabled",
+    "type": 0,
+    "domain": "userrts",
+    "removed": "2016-06-27 08:27:30 +0200"
+  },
+  {
+    "id": 180,
+    "name": "banyer",
+    "state": "enabled",
+    "type": 0,
+    "domain": "userrts",
+    "removed": "2016-06-27 08:16:08 +0200"
+  },
+  {
+    "id": 376,
+    "name": "banyer",
+    "state": "enabled",
+    "type": 0,
+    "domain": "userrts",
+    "removed": "2016-07-05 13:20:19 +0200"
+  },
+  {
+    "id": 125,
+    "name": "baremetal-system-account",
+    "state": "enabled",
+    "type": 0,
+    "domain": "ROOT",
+    "removed": null
+  },
+  {
+    "id": 369,
+    "name": "berthopi",
+    "state": "enabled",
+    "type": 0,
+    "domain": "userrts",
+    "removed": "2016-06-27 08:27:30 +0200"
+  },
+  {
+    "id": 190,
+    "name": "berthopi",
+    "state": "enabled",
+    "type": 0,
+    "domain": "userrts",
+    "removed": "2016-06-27 08:16:08 +0200"
+  },
+  {
+    "id": 377,
+    "name": "berthopi",
+    "state": "enabled",
+    "type": 0,
+    "domain": "userrts",
+    "removed": "2016-07-05 13:20:19 +0200"
+  },
+  {
+    "id": 191,
+    "name": "berthopi",
+    "state": "enabled",
+    "type": 0,
+    "domain": "userrts",
+    "removed": "2016-06-27 08:16:08 +0200"
+  },
+  {
+    "id": 237,
+    "name": "chauvise",
+    "state": "enabled",
+    "type": 0,
+    "domain": "userrts",
+    "removed": "2016-06-27 08:16:08 +0200"
+  },
+  {
+    "id": 394,
+    "name": "chauvise",
+    "state": "enabled",
+    "type": 0,
+    "domain": "userrts",
+    "removed": "2016-07-05 13:20:19 +0200"
+  },
+  {
+    "id": 236,
+    "name": "chauvise",
+    "state": "enabled",
+    "type": 0,
+    "domain": "userrts",
+    "removed": "2016-06-27 08:16:08 +0200"
+  },
+  {
+    "id": 487,
+    "name": "clavisit",
+    "state": "enabled",
+    "type": 2,
+    "domain": "clavisit",
+    "removed": null
+  },
+  {
+    "id": 499,
+    "name": "clavisit_mst",
+    "state": "enabled",
+    "type": 2,
+    "domain": "clavisit",
+    "removed": null
+  },
+  {
+    "id": 71,
+    "name": "cloud-demo",
+    "state": "enabled",
+    "type": 0,
+    "domain": "Cloud-Demo",
+    "removed": null
+  },
+  {
+    "id": 90,
+    "name": "cloud-demo-admin",
+    "state": "enabled",
+    "type": 2,
+    "domain": "Cloud-Demo",
+    "removed": null
+  },
+  {
+    "id": 246,
+    "name": "concepteur_mm_tsr_geo",
+    "state": "enabled",
+    "type": 0,
+    "domain": "userrts",
+    "removed": "2016-06-27 08:16:08 +0200"
+  },
+  {
+    "id": 402,
+    "name": "concepteur_mm_tsr_geo",
+    "state": "enabled",
+    "type": 0,
+    "domain": "userrts",
+    "removed": "2016-07-05 13:20:19 +0200"
+  },
+  {
+    "id": 247,
+    "name": "concepteur_tsr_arch",
+    "state": "enabled",
+    "type": 0,
+    "domain": "userrts",
+    "removed": "2016-06-27 08:16:09 +0200"
+  },
+  {
+    "id": 403,
+    "name": "concepteur_tsr_arch",
+    "state": "enabled",
+    "type": 0,
+    "domain": "userrts",
+    "removed": "2016-07-05 13:20:19 +0200"
+  },
+  {
+    "id": 404,
+    "name": "concepteur_upload_tsr_archive1",
+    "state": "enabled",
+    "type": 0,
+    "domain": "userrts",
+    "removed": "2016-07-05 13:20:19 +0200"
+  },
+  {
+    "id": 248,
+    "name": "concepteur_upload_tsr_archive1",
+    "state": "enabled",
+    "type": 0,
+    "domain": "userrts",
+    "removed": "2016-06-27 08:16:09 +0200"
+  },
+  {
+    "id": 249,
+    "name": "concepteur_upload_tsr_main",
+    "state": "enabled",
+    "type": 0,
+    "domain": "userrts",
+    "removed": "2016-06-27 08:16:09 +0200"
+  },
+  {
+    "id": 405,
+    "name": "concepteur_upload_tsr_main",
+    "state": "enabled",
+    "type": 0,
+    "domain": "userrts",
+    "removed": "2016-07-05 13:20:19 +0200"
+  },
+  {
+    "id": 327,
+    "name": "dedikma",
+    "state": "enabled",
+    "type": 0,
+    "domain": "userscustomers",
+    "removed": "2016-06-27 08:16:08 +0200"
+  },
+  {
+    "id": 45,
+    "name": "demo",
+    "state": "enabled",
+    "type": 0,
+    "domain": "Demo",
+    "removed": null
+  },
+  {
+    "id": 46,
+    "name": "demo-adm",
+    "state": "enabled",
+    "type": 2,
+    "domain": "Demo",
+    "removed": null
+  },
+  {
+    "id": 47,
+    "name": "demo2",
+    "state": "enabled",
+    "type": 0,
+    "domain": "Demo",
+    "removed": "2014-02-05 08:15:00 +0100"
+  },
+  {
+    "id": 41,
+    "name": "drittkunden-adm",
+    "state": "enabled",
+    "type": 2,
+    "domain": "Drittkunden",
+    "removed": null
+  },
+  {
+    "id": 271,
+    "name": "emiyanse",
+    "state": "enabled",
+    "type": 0,
+    "domain": "userrts",
+    "removed": "2016-06-27 08:16:09 +0200"
+  },
+  {
+    "id": 428,
+    "name": "emiyanse",
+    "state": "enabled",
+    "type": 0,
+    "domain": "userrts",
+    "removed": "2016-07-05 13:20:19 +0200"
+  },
+  {
+    "id": 432,
+    "name": "fournotfr",
+    "state": "enabled",
+    "type": 0,
+    "domain": "userrts",
+    "removed": "2016-07-05 13:20:19 +0200"
+  },
+  {
+    "id": 276,
+    "name": "fournotfr",
+    "state": "enabled",
+    "type": 0,
+    "domain": "userrts",
+    "removed": "2016-06-27 08:16:09 +0200"
+  },
+  {
+    "id": 433,
+    "name": "fouryvi",
+    "state": "enabled",
+    "type": 0,
+    "domain": "userrts",
+    "removed": "2016-07-05 13:20:20 +0200"
+  },
+  {
+    "id": 277,
+    "name": "fouryvi",
+    "state": "enabled",
+    "type": 0,
+    "domain": "userrts",
+    "removed": "2016-06-27 08:16:10 +0200"
+  },
+  {
+    "id": 496,
+    "name": "frischma",
+    "state": "enabled",
+    "type": 0,
+    "domain": "clavisit",
+    "removed": "2017-02-27 10:49:20 +0100"
+  },
+  {
+    "id": 435,
+    "name": "fuchsm",
+    "state": "enabled",
+    "type": 0,
+    "domain": "userscustomers",
+    "removed": "2016-07-05 13:19:36 +0200"
+  },
+  {
+    "id": 279,
+    "name": "fuchsm",
+    "state": "enabled",
+    "type": 0,
+    "domain": "userscustomers",
+    "removed": "2016-06-27 08:16:08 +0200"
+  },
+  {
+    "id": 283,
+    "name": "gauthiar",
+    "state": "enabled",
+    "type": 0,
+    "domain": "userrts",
+    "removed": "2016-06-27 08:16:10 +0200"
+  },
+  {
+    "id": 74,
+    "name": "gd",
+    "state": "enabled",
+    "type": 0,
+    "domain": "SRG",
+    "removed": "2014-02-05 08:27:47 +0100"
+  },
+  {
+    "id": 106,
+    "name": "gd-sysadmin",
+    "state": "enabled",
+    "type": 0,
+    "domain": "GD",
+    "removed": null
+  },
+  {
+    "id": 105,
+    "name": "gd-sysadmin",
+    "state": "enabled",
+    "type": 0,
+    "domain": "GD",
+    "removed": "2015-01-28 10:03:37 +0100"
+  },
+  {
+    "id": 48,
+    "name": "hashd-adm",
+    "state": "enabled",
+    "type": 2,
+    "domain": "hashd",
+    "removed": "2013-08-06 15:36:02 +0200"
+  },
+  {
+    "id": 456,
+    "name": "hauzarni",
+    "state": "enabled",
+    "type": 0,
+    "domain": "userrts",
+    "removed": "2016-07-05 13:20:20 +0200"
+  },
+  {
+    "id": 300,
+    "name": "hauzarni",
+    "state": "enabled",
+    "type": 0,
+    "domain": "userrts",
+    "removed": "2016-06-27 08:16:10 +0200"
+  },
+  {
+    "id": 457,
+    "name": "hbbboost",
+    "state": "enabled",
+    "type": 0,
+    "domain": "userscustomers",
+    "removed": "2016-07-05 13:19:37 +0200"
+  },
+  {
+    "id": 301,
+    "name": "hbbboost",
+    "state": "enabled",
+    "type": 0,
+    "domain": "userscustomers",
+    "removed": "2016-06-27 08:16:08 +0200"
+  },
+  {
+    "id": 118,
+    "name": "hbbtv-streaming",
+    "state": "enabled",
+    "type": 2,
+    "domain": "hbbtv-streaming",
+    "removed": "2016-01-19 10:21:27 +0100"
+  },
+  {
+    "id": 92,
+    "name": "hoferda",
+    "state": "enabled",
+    "type": 0,
+    "domain": "RTS",
+    "removed": "2016-04-19 13:15:42 +0200"
+  },
+  {
+    "id": 321,
+    "name": "icingapi",
+    "state": "enabled",
+    "type": 0,
+    "domain": "usersrf",
+    "removed": "2016-06-27 08:16:08 +0200"
+  },
+  {
+    "id": 477,
+    "name": "icingapi",
+    "state": "enabled",
+    "type": 0,
+    "domain": "usersrf",
+    "removed": "2016-07-05 13:20:04 +0200"
+  },
+  {
+    "id": 38,
+    "name": "Informatio-adm",
+    "state": "enabled",
+    "type": 2,
+    "domain": "Swisscom",
+    "removed": "2013-02-07 15:30:25 +0100"
+  },
+  {
+    "id": 111,
+    "name": "jmb",
+    "state": "enabled",
+    "type": 2,
+    "domain": "swissinfo",
+    "removed": "2015-04-21 11:44:16 +0200"
+  },
+  {
+    "id": 83,
+    "name": "kollyma",
+    "state": "enabled",
+    "type": 0,
+    "domain": "STXT",
+    "removed": "2014-05-13 06:20:58 +0200"
+  },
+  {
+    "id": 94,
+    "name": "laifaani",
+    "state": "enabled",
+    "type": 0,
+    "domain": "RTS",
+    "removed": "2014-12-02 08:19:54 +0100"
+  },
+  {
+    "id": 17,
+    "name": "mpc2012user",
+    "state": "enabled",
+    "type": 0,
+    "domain": "MPC-2012",
+    "removed": "2012-08-29 11:55:33 +0200"
+  },
+  {
+    "id": 16,
+    "name": "mpc2012_admin",
+    "state": "enabled",
+    "type": 2,
+    "domain": "MPC-2012",
+    "removed": "2012-08-29 11:55:43 +0200"
+  },
+  {
+    "id": 103,
+    "name": "nicolege",
+    "state": "enabled",
+    "type": 0,
+    "domain": "GD",
+    "removed": "2015-01-28 09:52:48 +0100"
+  },
+  {
+    "id": 104,
+    "name": "nicolege",
+    "state": "enabled",
+    "type": 0,
+    "domain": "GD",
+    "removed": "2015-01-28 09:57:37 +0100"
+  },
+  {
+    "id": 57,
+    "name": "nmc-demo",
+    "state": "enabled",
+    "type": 0,
+    "domain": "ROOT",
+    "removed": "2013-05-29 16:30:04 +0200"
+  },
+  {
+    "id": 58,
+    "name": "nmc-demo",
+    "state": "enabled",
+    "type": 0,
+    "domain": "Demo",
+    "removed": "2013-06-05 14:17:31 +0200"
+  },
+  {
+    "id": 56,
+    "name": "nmc-demo",
+    "state": "enabled",
+    "type": 1,
+    "domain": "ROOT",
+    "removed": "2013-05-29 15:07:01 +0200"
+  },
+  {
+    "id": 493,
+    "name": "openmedia",
+    "state": "enabled",
+    "type": 0,
+    "domain": "Drittkunden",
+    "removed": "2017-02-24 14:28:58 +0100"
+  },
+  {
+    "id": 494,
+    "name": "openmedia",
+    "state": "enabled",
+    "type": 0,
+    "domain": "openmedia",
+    "removed": null
+  },
+  {
+    "id": 75,
+    "name": "PDO-RTS",
+    "state": "enabled",
+    "type": 0,
+    "domain": "GD",
+    "removed": "2014-10-21 11:38:17 +0200"
+  },
+  {
+    "id": 497,
+    "name": "Clavis IT / WebSolutions",
+    "state": "enabled",
+    "type": 5,
+    "domain": "clavisit",
+    "removed": null
+  },
+  {
+    "id": 491,
+    "name": "PrjAcct-CLAVISIT_DILAX_WAS-311",
+    "state": "enabled",
+    "type": 5,
+    "domain": "clavisit",
+    "removed": "2017-02-03 13:14:36 +0100"
+  },
+  {
+    "id": 495,
+    "name": "CLAVISIT_INT_SVC",
+    "state": "enabled",
+    "type": 5,
+    "domain": "clavisit",
+    "removed": null
+  },
+  {
+    "id": 492,
+    "name": "CLAVISIT_VARIOUS_CUSTOMER_VPCs",
+    "state": "enabled",
+    "type": 5,
+    "domain": "clavisit",
+    "removed": null
+  },
+  {
+    "id": 34,
+    "name": "PrjAcct-Demo-1",
+    "state": "enabled",
+    "type": 5,
+    "domain": "ROOT",
+    "removed": "2012-11-21 12:16:48 +0100"
+  },
+  {
+    "id": 91,
+    "name": "PrjAcct-demo-voicepublishing-16",
+    "state": "enabled",
+    "type": 5,
+    "domain": "Cloud-Demo",
+    "removed": "2014-10-29 12:46:26 +0100"
+  },
+  {
+    "id": 89,
+    "name": "PrjAcct-demo99-1",
+    "state": "enabled",
+    "type": 5,
+    "domain": "ROOT",
+    "removed": "2014-10-29 12:34:35 +0100"
+  },
+  {
+    "id": 13,
+    "name": "PrjAcct-Devolopper Projekt-3",
+    "state": "enabled",
+    "type": 5,
+    "domain": "SRF",
+    "removed": "2012-08-28 16:32:27 +0200"
+  },
+  {
+    "id": 100,
+    "name": "PrjAcct-GD_PROD-1",
+    "state": "enabled",
+    "type": 5,
+    "domain": "ROOT",
+    "removed": "2015-01-28 07:20:02 +0100"
+  },
+  {
+    "id": 102,
+    "name": "GD_PROD",
+    "state": "enabled",
+    "type": 5,
+    "domain": "GD",
+    "removed": null
+  },
+  {
+    "id": 490,
+    "name": "CLAVISIT_CLOUD_REPOSITORY_PROD",
+    "state": "enabled",
+    "type": 5,
+    "domain": "clavisit",
+    "removed": null
+  },
+  {
+    "id": 488,
+    "name": "PrjAcct-Inventory_Test-311",
+    "state": "enabled",
+    "type": 5,
+    "domain": "clavisit",
+    "removed": "2017-01-06 10:23:11 +0100"
+  },
+  {
+    "id": 489,
+    "name": "CLAVISIT_CLOUD_REPOSITORY_TEST",
+    "state": "enabled",
+    "type": 5,
+    "domain": "clavisit",
+    "removed": null
+  },
+  {
+    "id": 18,
+    "name": "PrjAcct-MPC2012-7",
+    "state": "enabled",
+    "type": 5,
+    "domain": "MPC-2012",
+    "removed": "2012-08-29 11:52:58 +0200"
+  },
+  {
+    "id": 15,
+    "name": "PrjAcct-MPC2012-Prod-1",
+    "state": "enabled",
+    "type": 5,
+    "domain": "ROOT",
+    "removed": "2012-08-29 11:52:46 +0200"
+  },
+  {
+    "id": 55,
+    "name": "PrjAcct-NMC-Demo-1",
+    "state": "enabled",
+    "type": 5,
+    "domain": "ROOT",
+    "removed": "2013-05-29 16:28:06 +0200"
+  },
+  {
+    "id": 33,
+    "name": "Playground",
+    "state": "enabled",
+    "type": 5,
+    "domain": "ROOT",
+    "removed": null
+  },
+  {
+    "id": 112,
+    "name": "PrjAcct-prod-25",
+    "state": "enabled",
+    "type": 5,
+    "domain": "swissinfo",
+    "removed": "2015-03-11 13:50:15 +0100"
+  },
+  {
+    "id": 108,
+    "name": "PrjAcct-prod-25",
+    "state": "enabled",
+    "type": 5,
+    "domain": "swissinfo",
+    "removed": "2015-02-06 14:44:19 +0100"
+  },
+  {
+    "id": 31,
+    "name": "RSI_TEST",
+    "state": "enabled",
+    "type": 5,
+    "domain": "RSI",
+    "removed": null
+  },
+  {
+    "id": 30,
+    "name": "RSI_PROD",
+    "state": "enabled",
+    "type": 5,
+    "domain": "RSI",
+    "removed": null
+  },
+  {
+    "id": 32,
+    "name": "RSI_STAGING",
+    "state": "enabled",
+    "type": 5,
+    "domain": "RSI",
+    "removed": null
+  },
+  {
+    "id": 97,
+    "name": "RTR_PROD",
+    "state": "enabled",
+    "type": 5,
+    "domain": "RTR",
+    "removed": null
+  },
+  {
+    "id": 35,
+    "name": "PrjAcct-RTS_DEV-1",
+    "state": "enabled",
+    "type": 5,
+    "domain": "ROOT",
+    "removed": "2012-12-17 14:44:52 +0100"
+  },
+  {
+    "id": 36,
+    "name": "RTS_DEV",
+    "state": "enabled",
+    "type": 5,
+    "domain": "RTS",
+    "removed": null
+  },
+  {
+    "id": 85,
+    "name": "PrjAcct-RTS_Labo-1",
+    "state": "enabled",
+    "type": 5,
+    "domain": "ROOT",
+    "removed": "2014-10-07 13:47:25 +0200"
+  },
+  {
+    "id": 87,
+    "name": "RTS_LABO",
+    "state": "enabled",
+    "type": 5,
+    "domain": "RTS",
+    "removed": null
+  },
+  {
+    "id": 86,
+    "name": "PrjAcct-RTS_Labo-5",
+    "state": "enabled",
+    "type": 5,
+    "domain": "RTS",
+    "removed": "2014-10-07 13:59:40 +0200"
+  },
+  {
+    "id": 28,
+    "name": "PrjAcct-RTS_POC-5",
+    "state": "enabled",
+    "type": 5,
+    "domain": "RTS",
+    "removed": "2013-05-21 10:00:55 +0200"
+  },
+  {
+    "id": 27,
+    "name": "RTS_PROD",
+    "state": "enabled",
+    "type": 5,
+    "domain": "RTS",
+    "removed": null
+  },
+  {
+    "id": 29,
+    "name": "RTS_TEST",
+    "state": "enabled",
+    "type": 5,
+    "domain": "RTS",
+    "removed": null
+  },
+  {
+    "id": 116,
+    "name": "PrjAcct-Server BIE Swissinfo-25",
+    "state": "enabled",
+    "type": 5,
+    "domain": "swissinfo",
+    "removed": "2015-04-21 13:46:40 +0200"
+  },
+  {
+    "id": 7,
+    "name": "PrjAcct-SRF-PROD-1",
+    "state": "enabled",
+    "type": 5,
+    "domain": "ROOT",
+    "removed": "2012-08-28 16:29:41 +0200"
+  },
+  {
+    "id": 66,
+    "name": "SRF_PRODUCTION",
+    "state": "enabled",
+    "type": 5,
+    "domain": "SRF",
+    "removed": null
+  },
+  {
+    "id": 65,
+    "name": "SRF_TEST",
+    "state": "enabled",
+    "type": 5,
+    "domain": "SRF",
+    "removed": null
+  },
+  {
+    "id": 61,
+    "name": "PrjAcct-SRF_ACCEPTANCE-1",
+    "state": "enabled",
+    "type": 5,
+    "domain": "ROOT",
+    "removed": "2013-07-17 13:17:10 +0200"
+  },
+  {
+    "id": 11,
+    "name": "PrjAcct-SRF_DEV-3",
+    "state": "enabled",
+    "type": 5,
+    "domain": "SRF",
+    "removed": "2013-07-24 17:22:28 +0200"
+  },
+  {
+    "id": 39,
+    "name": "PrjAcct-SRF_POC-1",
+    "state": "enabled",
+    "type": 5,
+    "domain": "ROOT",
+    "removed": "2013-01-28 09:17:11 +0100"
+  },
+  {
+    "id": 40,
+    "name": "PrjAcct-SRF_POC-3",
+    "state": "enabled",
+    "type": 5,
+    "domain": "SRF",
+    "removed": "2013-07-24 14:47:00 +0200"
+  },
+  {
+    "id": 10,
+    "name": "PrjAcct-SRF_PROD-3",
+    "state": "enabled",
+    "type": 5,
+    "domain": "SRF",
+    "removed": "2013-07-24 14:37:16 +0200"
+  },
+  {
+    "id": 59,
+    "name": "PrjAcct-SRF_STAGE-1",
+    "state": "enabled",
+    "type": 5,
+    "domain": "ROOT",
+    "removed": "2013-07-17 08:14:07 +0200"
+  },
+  {
+    "id": 60,
+    "name": "SRF_STAGE",
+    "state": "enabled",
+    "type": 5,
+    "domain": "SRF",
+    "removed": null
+  },
+  {
+    "id": 25,
+    "name": "PrjAcct-SRF_TEST-1",
+    "state": "enabled",
+    "type": 5,
+    "domain": "ROOT",
+    "removed": "2012-08-30 11:27:44 +0200"
+  },
+  {
+    "id": 19,
+    "name": "PrjAcct-SRF_TEST-3",
+    "state": "enabled",
+    "type": 5,
+    "domain": "SRF",
+    "removed": "2012-08-29 15:17:20 +0200"
+  },
+  {
+    "id": 26,
+    "name": "PrjAcct-SRF_TEST-3",
+    "state": "enabled",
+    "type": 5,
+    "domain": "SRF",
+    "removed": "2013-07-24 15:10:33 +0200"
+  },
+  {
+    "id": 64,
+    "name": "PrjAcct-SRF_TESTING-3",
+    "state": "enabled",
+    "type": 5,
+    "domain": "SRF",
+    "removed": "2013-07-18 07:39:02 +0200"
+  },
+  {
+    "id": 67,
+    "name": "SRF_TRAINING",
+    "state": "enabled",
+    "type": 5,
+    "domain": "SRF",
+    "removed": null
+  },
+  {
+    "id": 63,
+    "name": "PrjAcct-SRF_TRAINING-3",
+    "state": "enabled",
+    "type": 5,
+    "domain": "SRF",
+    "removed": "2013-07-18 09:03:05 +0200"
+  },
+  {
+    "id": 484,
+    "name": "STXT_CARGO_PROD",
+    "state": "enabled",
+    "type": 5,
+    "domain": "STXT",
+    "removed": null
+  },
+  {
+    "id": 482,
+    "name": "PrjAcct-STXT_CASTRO_PROD-1",
+    "state": "enabled",
+    "type": 5,
+    "domain": "ROOT",
+    "removed": "2016-10-03 10:42:59 +0200"
+  },
+  {
+    "id": 483,
+    "name": "PrjAcct-STXT_CASTRO_PROD-4",
+    "state": "enabled",
+    "type": 5,
+    "domain": "STXT",
+    "removed": "2016-10-06 07:36:20 +0200"
+  },
+  {
+    "id": 123,
+    "name": "PrjAcct-STXT_CDN_MANAGER-1",
+    "state": "enabled",
+    "type": 5,
+    "domain": "ROOT",
+    "removed": "2015-08-19 14:00:40 +0200"
+  },
+  {
+    "id": 124,
+    "name": "STXT_Management",
+    "state": "enabled",
+    "type": 5,
+    "domain": "STXT",
+    "removed": null
+  },
+  {
+    "id": 121,
+    "name": "PrjAcct-STXT_DMZ_LOGGING-4",
+    "state": "enabled",
+    "type": 5,
+    "domain": "STXT",
+    "removed": "2016-07-08 14:56:48 +0200"
+  },
+  {
+    "id": 130,
+    "name": "STXT_HBBTV_STREAMING",
+    "state": "enabled",
+    "type": 5,
+    "domain": "STXT",
+    "removed": null
+  },
+  {
+    "id": 68,
+    "name": "PrjAcct-STXT_INTEGRATION-1",
+    "state": "enabled",
+    "type": 5,
+    "domain": "ROOT",
+    "removed": "2013-08-19 12:26:28 +0200"
+  },
+  {
+    "id": 70,
+    "name": "STXT_INTEGRATION",
+    "state": "enabled",
+    "type": 5,
+    "domain": "STXT",
+    "removed": null
+  },
+  {
+    "id": 325,
+    "name": "STXT_Kaltura_PROD",
+    "state": "enabled",
+    "type": 5,
+    "domain": "STXT",
+    "removed": null
+  },
+  {
+    "id": 481,
+    "name": "STXT_Kaltura_STAGE",
+    "state": "enabled",
+    "type": 5,
+    "domain": "STXT",
+    "removed": null
+  },
+  {
+    "id": 132,
+    "name": "PrjAcct-STXT_LETS_ENCODE-4",
+    "state": "enabled",
+    "type": 5,
+    "domain": "STXT",
+    "removed": "2016-07-08 14:55:40 +0200"
+  },
+  {
+    "id": 126,
+    "name": "PrjAcct-STXT_MIO-1",
+    "state": "enabled",
+    "type": 5,
+    "domain": "ROOT",
+    "removed": "2015-10-15 07:44:04 +0200"
+  },
+  {
+    "id": 127,
+    "name": "PrjAcct-STXT_MIO-4",
+    "state": "enabled",
+    "type": 5,
+    "domain": "STXT",
+    "removed": "2015-10-15 10:05:38 +0200"
+  },
+  {
+    "id": 128,
+    "name": "STXT_MIO_PROD",
+    "state": "enabled",
+    "type": 5,
+    "domain": "STXT",
+    "removed": null
+  },
+  {
+    "id": 129,
+    "name": "PrjAcct-STXT_MIO_TEST-4",
+    "state": "enabled",
+    "type": 5,
+    "domain": "STXT",
+    "removed": "2016-10-03 10:34:33 +0200"
+  },
+  {
+    "id": 136,
+    "name": "PrjAcct-STXT_SBBMEDIA-4",
+    "state": "enabled",
+    "type": 5,
+    "domain": "STXT",
+    "removed": "2016-04-21 06:18:34 +0200"
+  },
+  {
+    "id": 137,
+    "name": "STXT_SBBMEDIA",
+    "state": "enabled",
+    "type": 5,
+    "domain": "STXT",
+    "removed": null
+  },
+  {
+    "id": 119,
+    "name": "PrjAcct-STXT_TEST-1",
+    "state": "enabled",
+    "type": 5,
+    "domain": "ROOT",
+    "removed": "2015-06-09 10:43:35 +0200"
+  },
+  {
+    "id": 117,
+    "name": "SWI_PROD",
+    "state": "enabled",
+    "type": 5,
+    "domain": "swissinfo",
+    "removed": null
+  },
+  {
+    "id": 135,
+    "name": "SWI_ACP",
+    "state": "enabled",
+    "type": 5,
+    "domain": "swissinfo",
+    "removed": null
+  },
+  {
+    "id": 107,
+    "name": "PrjAcct-Test Environment-25",
+    "state": "enabled",
+    "type": 5,
+    "domain": "swissinfo",
+    "removed": "2015-02-26 13:56:05 +0100"
+  },
+  {
+    "id": 6,
+    "name": "PrjAcct-test-1",
+    "state": "enabled",
+    "type": 5,
+    "domain": "ROOT",
+    "removed": "2012-08-28 15:49:24 +0200"
+  },
+  {
+    "id": 131,
+    "name": "PrjAcct-Tools_srv-25",
+    "state": "enabled",
+    "type": 5,
+    "domain": "swissinfo",
+    "removed": "2016-02-03 14:02:44 +0100"
+  },
+  {
+    "id": 93,
+    "name": "XTDX_Integration",
+    "state": "enabled",
+    "type": 5,
+    "domain": "xtendx",
+    "removed": null
+  },
+  {
+    "id": 22,
+    "name": "rsi-adm",
+    "state": "enabled",
+    "type": 2,
+    "domain": "RSI",
+    "removed": null
+  },
+  {
+    "id": 24,
+    "name": "rsi-dev",
+    "state": "enabled",
+    "type": 0,
+    "domain": "RSI",
+    "removed": null
+  },
+  {
+    "id": 23,
+    "name": "rsi-sysadm",
+    "state": "enabled",
+    "type": 0,
+    "domain": "RSI",
+    "removed": null
+  },
+  {
+    "id": 95,
+    "name": "rtr-adm",
+    "state": "enabled",
+    "type": 2,
+    "domain": "RTR",
+    "removed": null
+  },
+  {
+    "id": 96,
+    "name": "rtr-sysadm",
+    "state": "enabled",
+    "type": 0,
+    "domain": "RTR",
+    "removed": null
+  },
+  {
+    "id": 14,
+    "name": "rts-adm",
+    "state": "enabled",
+    "type": 2,
+    "domain": "RTS",
+    "removed": null
+  },
+  {
+    "id": 21,
+    "name": "rts-dev",
+    "state": "enabled",
+    "type": 0,
+    "domain": "RTS",
+    "removed": null
+  },
+  {
+    "id": 20,
+    "name": "rts-sysadm",
+    "state": "enabled",
+    "type": 0,
+    "domain": "RTS",
+    "removed": null
+  },
+  {
+    "id": 340,
+    "name": "Schmida",
+    "state": "enabled",
+    "type": 0,
+    "domain": "userscustomers",
+    "removed": "2016-07-05 13:19:36 +0200"
+  },
+  {
+    "id": 140,
+    "name": "Schmida",
+    "state": "enabled",
+    "type": 0,
+    "domain": "userscustomers",
+    "removed": "2016-06-27 08:16:07 +0200"
+  },
+  {
+    "id": 8,
+    "name": "srf-adm",
+    "state": "enabled",
+    "type": 2,
+    "domain": "SRF",
+    "removed": null
+  },
+  {
+    "id": 12,
+    "name": "srf-dev",
+    "state": "enabled",
+    "type": 0,
+    "domain": "SRF",
+    "removed": null
+  },
+  {
+    "id": 5,
+    "name": "srf-prod",
+    "state": "enabled",
+    "type": 2,
+    "domain": "SRF",
+    "removed": "2012-08-28 16:04:12 +0200"
+  },
+  {
+    "id": 3,
+    "name": "srf-prod",
+    "state": "enabled",
+    "type": 0,
+    "domain": "SRF",
+    "removed": "2012-08-28 15:26:53 +0200"
+  },
+  {
+    "id": 9,
+    "name": "srf-sysadm",
+    "state": "enabled",
+    "type": 0,
+    "domain": "SRF",
+    "removed": null
+  },
+  {
+    "id": 52,
+    "name": "srg",
+    "state": "enabled",
+    "type": 0,
+    "domain": "ROOT",
+    "removed": "2013-05-01 10:04:23 +0200"
+  },
+  {
+    "id": 53,
+    "name": "srg",
+    "state": "enabled",
+    "type": 0,
+    "domain": "SRG",
+    "removed": "2013-05-01 10:25:13 +0200"
+  },
+  {
+    "id": 42,
+    "name": "srg-adm",
+    "state": "enabled",
+    "type": 2,
+    "domain": "SRG",
+    "removed": null
+  },
+  {
+    "id": 44,
+    "name": "stereomesh",
+    "state": "enabled",
+    "type": 0,
+    "domain": "stereomesh",
+    "removed": null
+  },
+  {
+    "id": 43,
+    "name": "stereomesh-adm",
+    "state": "enabled",
+    "type": 2,
+    "domain": "stereomesh",
+    "removed": null
+  },
+  {
+    "id": 122,
+    "name": "stxt-adm",
+    "state": "enabled",
+    "type": 1,
+    "domain": "ROOT",
+    "removed": null
+  },
+  {
+    "id": 120,
+    "name": "stxt-adm",
+    "state": "enabled",
+    "type": 2,
+    "domain": "STXT",
+    "removed": null
+  },
+  {
+    "id": 498,
+    "name": "stxt-adm",
+    "state": "enabled",
+    "type": 2,
+    "domain": "openmedia",
+    "removed": "2017-04-11 09:57:01 +0200"
+  },
+  {
+    "id": 69,
+    "name": "stxt-adm",
+    "state": "enabled",
+    "type": 2,
+    "domain": "STXT",
+    "removed": null
+  },
+  {
+    "id": 78,
+    "name": "stxt-adm",
+    "state": "enabled",
+    "type": 2,
+    "domain": "VoicePublishing",
+    "removed": "2014-05-21 14:15:02 +0200"
+  },
+  {
+    "id": 485,
+    "name": "stxt-adm",
+    "state": "enabled",
+    "type": 2,
+    "domain": "swissinfo",
+    "removed": null
+  },
+  {
+    "id": 77,
+    "name": "stxt-ma-adm",
+    "state": "enabled",
+    "type": 2,
+    "domain": "STXT_MA",
+    "removed": "2014-06-12 08:34:51 +0200"
+  },
+  {
+    "id": 76,
+    "name": "stxt-ma-users",
+    "state": "enabled",
+    "type": 0,
+    "domain": "STXT_MA",
+    "removed": "2014-06-12 08:34:57 +0200"
+  },
+  {
+    "id": 4,
+    "name": "stxt-sysadmin",
+    "state": "enabled",
+    "type": 0,
+    "domain": "STXT",
+    "removed": "2013-02-05 16:33:21 +0100"
+  },
+  {
+    "id": 50,
+    "name": "suedostschweiz",
+    "state": "enabled",
+    "type": 0,
+    "domain": "suedostschweiz",
+    "removed": null
+  },
+  {
+    "id": 37,
+    "name": "Swisscom",
+    "state": "enabled",
+    "type": 0,
+    "domain": "Swisscom",
+    "removed": "2014-05-21 14:58:03 +0200"
+  },
+  {
+    "id": 98,
+    "name": "swissinfo",
+    "state": "enabled",
+    "type": 2,
+    "domain": "SRG",
+    "removed": "2015-01-26 14:23:24 +0100"
+  },
+  {
+    "id": 99,
+    "name": "swissinfo",
+    "state": "enabled",
+    "type": 2,
+    "domain": "swissinfo",
+    "removed": null
+  },
+  {
+    "id": 1,
+    "name": "system",
+    "state": "enabled",
+    "type": 1,
+    "domain": "ROOT",
+    "removed": null
+  },
+  {
+    "id": 51,
+    "name": "tpc",
+    "state": "enabled",
+    "type": 0,
+    "domain": "TPC",
+    "removed": null
+  },
+  {
+    "id": 82,
+    "name": "tpc-panic-room",
+    "state": "enabled",
+    "type": 0,
+    "domain": "TPC",
+    "removed": "2014-06-11 13:06:25 +0200"
+  },
+  {
+    "id": 54,
+    "name": "user",
+    "state": "enabled",
+    "type": 0,
+    "domain": "ROOT",
+    "removed": "2013-05-16 14:08:56 +0200"
+  },
+  {
+    "id": 72,
+    "name": "watson",
+    "state": "enabled",
+    "type": 0,
+    "domain": "VoicePublishing",
+    "removed": "2013-12-10 07:53:48 +0100"
+  },
+  {
+    "id": 81,
+    "name": "xtendx",
+    "state": "enabled",
+    "type": 2,
+    "domain": "xtendx",
+    "removed": null
+  },
+  {
+    "id": 80,
+    "name": "xtendx",
+    "state": "enabled",
+    "type": 0,
+    "domain": "xtendx",
+    "removed": "2014-04-09 12:48:09 +0200"
+  },
+  {
+    "id": 79,
+    "name": "xtendx-adm",
+    "state": "enabled",
+    "type": 2,
+    "domain": "xtendx",
+    "removed": "2014-04-09 12:48:03 +0200"
+  },
+  {
+    "id": 480,
+    "name": "ymc-jobr",
+    "state": "enabled",
+    "type": 0,
+    "domain": "SRF",
+    "removed": null
+  },
+  {
+    "id": 49,
+    "name": "hashd",
+    "state": "locked",
+    "type": 0,
+    "domain": "hashd",
+    "removed": "2013-08-06 14:52:25 +0200"
+  },
+  {
+    "id": 84,
+    "name": "layzapp",
+    "state": "locked",
+    "type": 2,
+    "domain": "layzapp",
+    "removed": "2015-07-07 08:26:51 +0200"
+  }
+]

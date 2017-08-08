@@ -54,15 +54,14 @@ class Stackback < Thor
   def accounts
     accounts = client.query("SELECT id, account_name, type, state, removed, domain_id FROM account ORDER BY state, account_name;").map do |row|
       domain = client.query("SELECT id, name, path FROM domain WHERE id = #{row['domain_id']};").first['name'] rescue row['n/a']
-      # name = if row['type'] == 5
-      #   client.query("SELECT p.name FROM projects AS p
-      #   INNER JOIN project_account AS j ON p.id = j.project_id AND j.account_id = #{row['id']};").first['name']
-      # else
-      #   row['account_name']
-      # end
+      name = if row['type'] == 5 && row['removed'] == nil
+        client.query("select distinct projects.name from projects join project_account on project_account.project_id = projects.id join account on account.id = project_account.project_account_id where project_account.project_account_id = #{row['id']};").first['name']
+      else
+        row['account_name']
+      end
       {
         id: row['id'],
-        name: row['account_name'], #name,
+        name: name,
         state: row['state'],
         type: row['type'],
         domain: domain,
@@ -70,6 +69,22 @@ class Stackback < Thor
       }
     end
     puts JSON.pretty_generate(accounts)
+  end
+
+  desc "projects", "Generate JSON data from projects"
+  def projects
+    projects = client.query("SELECT id, name, display_text, created, domain_id FROM projects WHERE name IS NOT NULL;").map do |row|
+      domain = client.query("SELECT name, path FROM domain WHERE id = #{row['domain_id']};").first['name'] rescue row['n/a']
+      {
+        id: row['id'],
+        name: row['name'],
+        domain: domain,
+        description: row['display_text'],
+        created: row['created']
+
+      }
+    end
+    puts JSON.pretty_generate(projects)
   end
 
   no_commands do

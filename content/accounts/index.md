@@ -4,10 +4,10 @@ date: 2017-07-27T20:26:19+02:00
 tags: [accounts,projects]
 ---
 
-## Active Accounts
+## Active Accounts & Projects
 
 {{< accounts type="active" >}}
 
-## Removed Accounts
+## Removed Accounts & Projects
 
 {{< accounts type="removed" >}}
