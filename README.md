@@ -8,6 +8,12 @@ You can generate JSON data files using the included Ruby script:
 
 ## Usage
 
+Install Ruby dependencies
+
+```bash
+$ bundle install
+```
+
 Generate accounts.json:
 
 ```bash
