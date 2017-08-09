@@ -55,8 +55,10 @@ Press Ctrl+C to stop
 
 ## Deploy the static website
 
-Deploy the the static site using rsync - one of many possible deployment options:
-```bash
-hugo
-rsync -avz --delete public/ root@static-01.stxt.media.int:/data/stackback
-```
+  1. Configure the base URL with config.toml:
+`baseURL = "http://example.org/"``
+  2. Deploy the the static site using rsync - one of many possible deployment options:
+    ```bash
+    hugo
+    rsync -avz --delete public/ root@static-01.stxt.media.int:/data/stackback
+    ```
