@@ -2,3 +2,4 @@
 Gemfile.lock
 data/*.json
 public/**
+themes/**
