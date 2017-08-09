@@ -1,11 +1,13 @@
-<table class="table-striped">
-  <tr>
-    <th>ID</th>
-    <th>Name</th>
-    <th>Description</th>
-    <th>State</th>
-    <th>Domain</th>
-  </tr>
+<table class="table-striped table-sortable">
+  <thead>
+    <tr data-sort-method='thead'>
+      <th>ID</th>
+      <th>Name</th>
+      <th>Description</th>
+      <th>State</th>
+      <th>Domain</th>
+    </tr>
+  </thead>
   {{ range sort . "id" "desc" }}
   <tr>
     <td><b>{{ .id }}</b></td>

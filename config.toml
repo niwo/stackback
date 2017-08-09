@@ -18,7 +18,8 @@ googleAnalytics = ""
 	highlight_css  = ""
 
 	# Custom assets
-  custom_css = ["material_table.css"]
+  custom_css = ["material_table.css", "tablesort.css"]
+	custom_js = ["tablesort.min.js", "tablesort.date.min.js", "tablesort.number.min.js"]
 
 [params.palette]
   primary = "red"

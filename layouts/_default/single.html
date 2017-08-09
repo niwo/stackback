@@ -45,3 +45,9 @@
 </main>
 
 {{ partial "footer_js" . }}
+
+<script>
+	document.querySelectorAll(".table-sortable").forEach(function(element, index, array) {
+	  new Tablesort(element);
+	});
+</script>

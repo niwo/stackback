@@ -1,11 +1,13 @@
-<table class="table-striped">
-  <tr>
-    <th>ID</th>
-    <th>Name</th>
-    <th>State</th>
-    <th>Domain</th>
-    <th>Removed</th>
-  </tr>
+<table class="table-striped table-sortable">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Name</th>
+      <th>State</th>
+      <th>Domain</th>
+      <th>Removed</th>
+    </tr>
+  </thead>
   {{ range sort . "removed" "desc" }}
   <tr>
     <td><b>{{ .id }}</b></td>
