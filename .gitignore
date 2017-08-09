@@ -1,4 +1,4 @@
 .env
 Gemfile.lock
-data/**
+data/*.json
 public/**
