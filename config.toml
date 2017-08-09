@@ -8,20 +8,29 @@ metadataformat = "yaml"
 googleAnalytics = ""
 
 [params]
-	version = "1.0.2"
-	logo = "images/logo.png"
-	favicon = ""
+  version = "1.0.2"
+  logo = "images/logo.png"
+  favicon = ""
 
-	permalink = "#"
+  permalink = "#"
 
-	# Syntax highlighting theme
-	highlight_css  = ""
+  # Syntax highlighting theme
+  highlight_css  = ""
 
-	# Custom assets
-  custom_css = ["material_table.css", "tablesort.css"]
-	custom_js = ["tablesort.min.js", "tablesort.date.min.js", "tablesort.number.min.js"]
+  # Custom assets
+  custom_css = [
+    "material_table.css",
+    "tablesort.css"
+  ]
 
-[params.palette]
+  custom_js = [
+    "tablesort.min.js",
+    "tablesort.date.min.js",
+    "tablesort.number.min.js",
+    "tablesort.dotsep.min.js"
+  ]
+
+  [params.palette]
   primary = "red"
   accent  = "teal"
 
@@ -30,22 +39,22 @@ googleAnalytics = ""
     code = "Ubuntu Mono"
 
 [[menu.main]]
-	name   = "Home"
-	url    = "/"
-	weight = 10
+  name   = "Home"
+  url    = "/"
+  weight = 10
 
 [[menu.main]]
-	name   = "Accounts"
-	url    = "accounts/"
-	weight = 20
+  name   = "Accounts"
+  url    = "accounts/"
+  weight = 20
 
 [[menu.main]]
-	name   = "Projects"
-	url    = "projects/"
-	weight = 20
+  name   = "Projects"
+  url    = "projects/"
+  weight = 20
 
 [blackfriday]
-	smartypants	= true
-	fractions = true
-	smartDashes = true
-	plainIDAnchors = true
+  smartypants	= true
+  fractions = true
+  smartDashes = true
+  plainIDAnchors = true
