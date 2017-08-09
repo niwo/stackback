@@ -4,7 +4,7 @@ Generate HTML pages with information from the CloudStack database, not available
 
 Currently implemented is a list of of accounts and projects.
 
-You can generate JSON data files using the included Ruby script:
+![StackBack UI](stackback.png)
 
 ## Setup
 
@@ -31,6 +31,8 @@ CS_DB_PASSWORD='***********'
 
 ## Generate JSON data from ClouStack database
 
+You can generate JSON data files using the included Ruby script:
+
 Generate accounts.json:
 ```bash
 $ ./cloudstack.rb accounts > data/accounts.json
@@ -55,7 +57,7 @@ Press Ctrl+C to stop
 
 ## Deploy the static website
 
-  1. Configure the base URL with config.toml: `baseURL = "http://example.org/"`
+  1. Configure the base URL within config.toml: `baseURL = "http://example.org/"`
   2. Deploy the the static site using rsync - one of many possible deployment options:
 ```bash
 $ hugo
