@@ -52,16 +52,17 @@ class Stackback < Thor
 
   desc "accounts", "Generate JSON data from accounts"
   def accounts
-    accounts = client.query("SELECT id, account_name, type, state, removed, domain_id FROM account ORDER BY state, account_name;").map do |row|
-      domain = client.query("SELECT id, name, path FROM domain WHERE id = #{row['domain_id']};").first['name'] rescue row['n/a']
-      name = if row['type'] == 5 && row['removed'] == nil
-        client.query("select distinct projects.name from projects join project_account on project_account.project_id = projects.id join account on account.id = project_account.project_account_id where project_account.project_account_id = #{row['id']};").first['name']
-      else
-        row['account_name']
+    accounts = client.query("SELECT id, account_name, type, state, removed, domain_id FROM account;").map do |row|
+      domain = client.query("SELECT path FROM domain WHERE id = #{row['domain_id']};").first['path'] rescue row['n/a']
+      if row['type'] == 5 && row['removed'] == nil
+        project = client.query("select distinct projects.name, projects.display_text from projects join project_account on project_account.project_id = projects.id join account on account.id = project_account.project_account_id where project_account.project_account_id = #{row['id']};").first
       end
+      name = project ? project['name'] : row['account_name']
+      description = project ? project['display_text'] : "-"
       {
         id: row['id'],
         name: name,
+        description: description,
         state: row['state'],
         type: row['type'],
         domain: domain,
@@ -74,7 +75,7 @@ class Stackback < Thor
   desc "projects", "Generate JSON data from projects"
   def projects
     projects = client.query("SELECT id, name, display_text, created, domain_id FROM projects WHERE name IS NOT NULL;").map do |row|
-      domain = client.query("SELECT name, path FROM domain WHERE id = #{row['domain_id']};").first['name'] rescue row['n/a']
+      domain = client.query("SELECT path FROM domain WHERE id = #{row['domain_id']};").first['path'] rescue row['n/a']
       {
         id: row['id'],
         name: row['name'],
