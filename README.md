@@ -55,7 +55,7 @@ Press Ctrl+C to stop
 
 ## Deploy the static website
 
-  1. Configure the base URL with config.toml: `baseURL = "http://example.org/"``
+  1. Configure the base URL with config.toml: `baseURL = "http://example.org/"`
   2. Deploy the the static site using rsync - one of many possible deployment options:
 ```bash
 $ hugo
