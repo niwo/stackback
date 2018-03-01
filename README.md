@@ -29,7 +29,7 @@ CS_DB_USER=root
 CS_DB_PASSWORD='***********'
 ```
 
-## Generate JSON data from ClouStack database
+## Generate JSON data from CloudStack database
 
 You can generate JSON data files using the included Ruby script:
 
