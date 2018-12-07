@@ -61,5 +61,5 @@ Press Ctrl+C to stop
   2. Deploy the the static site using rsync - one of many possible deployment options:
 ```bash
 $ hugo
-$ rsync -avz --delete public/ root@static-01.stxt.media.int:/data/stackback
+$ rsync -avz --delete public/ static-examplehost.net:/data/stackback
 ```
